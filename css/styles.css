@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: rgb(54, 5, 117);
+    background-color: cornsilk;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+.xbox {
+    padding: 6px;
+    text-align: center;
+    border-left: 6px solid red;
+    border-right: 6px solid blue;
+    border-top: 6px solid orange;
+    border-bottom: 8px solid yellowgreen;
+    margin: 20px;
+    background-color: palevioletred;
+}
+
+.wifi {
+    text-align: center;
+    font-size: x-large;
+    color: whitesmoke;
+    border-top: 6px solid orange;
+    border-bottom: 8px solid yellowgreen;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: wheat;
+    }
+}
